@@ -15,7 +15,7 @@
     }
   },
   {
-    "ingredientPattern": "HS,XM,LC",
+    "ingredientPattern": "HS,XMN,LC",
     "width": 2,
     "height": 3,
     "ingredients": {
@@ -43,6 +43,11 @@
       },
       "M": {
         "type": "item",
+        "code": "game:metalplate-electrum",
+        "quantity": 4
+      },
+      "N": {
+        "type": "item",
         "code": "game:metalplate-iron",
         "quantity": 4
       },
@@ -55,7 +60,7 @@
     "output": {
       "type": "block",
       "code": "electricity:motor-stator",
-      "quantity": 4
+      "quantity": 2
     }
   }
 ]
